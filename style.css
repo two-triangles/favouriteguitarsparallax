@@ -8,9 +8,10 @@ body, html {
   color: rgb(56, 56, 56);
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+[class *="pimg"] {
   background-size: cover;
   background-position: center;
+  min-height: 400px;
 }
 
 .pimg1 {
@@ -21,21 +22,21 @@ body, html {
 
 .pimg2 {
   background-image: url(img/ibanez.png);
-  min-height: 400px;
+
 }
 
 
 .pimg3{
   background-image: url(img/jackson.png);
-  min-height: 400px;
+
 }
 
 .pimg4 {
   background-image: url(img/caparison.jpg);
-  min-height: 400px;
+
 }
 
 .pimg5 {
   background-image: url(img/solar.png);
-  min-height: 400px;
+  
 }
