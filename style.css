@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgb(56, 56, 56);
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+  background-size: cover;
+  background-position: center;
+}
+
+.pimg1 {
+  background-image: url(img/hero.jpg);
+  min-height: 100%;
+}
+
+
+.pimg2 {
+  background-image: url(img/ibanez.png);
+  min-height: 400px;
+}
+
+
+.pimg3{
+  background-image: url(img/jackson.png);
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url(img/caparison.jpg);
+  min-height: 400px;
+}
+
+.pimg5 {
+  background-image: url(img/solar.png);
+  min-height: 400px;
+}
